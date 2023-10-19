@@ -1,16 +1,22 @@
 import React from "react";
 import "../syles/Header.css";
+import { Link, useNavigate } from 'react-router-dom';
 
 // ::return:: This code renders a Navbar as our page header with the title of the website
 // ::TODO:: - Add Sign in / Register button?
 
+
 function Header() {
+  const navigate = useNavigate();
   return (
     <div className="header">
       <div className="header__left">
-        <h1>Hire A Painter</h1>
+        <Link to={'/'} className="HeaderBrand">Hire A Painter</Link>
       </div>
-      <div className="header__center"></div>
+      <div className="header__center">
+        <button onClick={() => navigate('/admin')} className="Adminbtn">Admin</button>
+        <button className="signBtn">Sign In</button>
+      </div>
     </div>
   );
 }

@@ -1,20 +1,20 @@
 /*=============== FOOTER ===============*/
 
-footer {
+.footer {
 	margin-top: auto;
 }
 
-.page-footer {
+.footer {
     margin-top: auto;
     min-height: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.page-footer>.wrapper>* {
+/* .page-footer>.wrapper>* {
     width: 33.33%;
-}
+} */
 
 .copy {
     padding-left: 10px;
