@@ -2,23 +2,6 @@
 
 /* header */
 
-#header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-#logo {
-  text-decoration: none;
-  color: black;
-  font-size: 5vh;
-  font-weight: bold;
-}
-	
-#menu-icon {
-  font-family: Geneva, sans-serif;
-  font-size: 6vh;
-}
 	
 /* hero buttons */
 
@@ -39,7 +22,7 @@
     font-weight: 600;
     justify-content: center;
     line-height: 1.25;
-    margin: 0;
+    margin-right: 10px;
     min-height: 3rem;
     padding: calc(.875rem - 1px) calc(1.5rem - 1px);
     position: relative;
@@ -71,7 +54,6 @@
     transform: translateY(0);
   }
 
-
   .Get-hired {
   
     /* CSS */
@@ -89,7 +71,7 @@
       font-weight: 600;
       justify-content: center;
       line-height: 1.25;
-      margin: 20px 20px;
+      margin: 0;
       min-height: 3rem;
       padding: calc(.875rem - 1px) calc(1.5rem - 1px);
       position: relative;
@@ -121,6 +103,9 @@
       transform: translateY(0);
     }
 
+
+
+
 .hero-title {
 	max-width: 16em;
 	margin: 0;
@@ -135,81 +120,3 @@
 	display: flex;
 	margin-bottom: 1em;
 }
-
-/* CSS */
-.button {
-  background-color: #EA4C89;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button:hover,
-.button:focus {
-  background-color: #F082AC;
-}
-
-.button-primary {
-    background-color: #4285F4;
-    border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    height: 40px;
-    line-height: 20px;
-    list-style: none;
-    margin: 0;
-    outline: none;
-    padding: 10px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button-primary:hover,
-  .button-primary:focus {
-    background-color: #F082AC;
-  }
-
-/* .button {
-	padding: .5em .67em;
-	color: black;
-	text-decoration: none;
-	border: .1em solid white;
-
-} */
-/* 	
-	.button-primary {
-		color: black;
-		background-color: white;
-	} */
