@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Stack, Button } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
-import profilepic from '../assets/stockProfile.jpg'
+import painter from '../assets/painter.jpg'
 
 
 const endpoint = 'https://jsonplaceholder.typicode.com/users'
@@ -28,7 +28,7 @@ function Hire()  {
             <div className="cardSec">
                 {users.map(user => (
                     <Card style={{ width: '18rem', margin: 'auto', display: 'flex' }}>
-                        <Card.Img variant="top" src={profilepic} />
+                        <Card.Img variant="top" src={painter} />
                         <Card.Body>
                             <Card.Title>{user.name} ({user.username})</Card.Title>
                             <Card.Text>
