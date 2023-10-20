@@ -10,6 +10,7 @@ import AdminPage from "./pages/Admin";
 import Hire from "./pages/Hire";
 import ErrorPage from "./error-page";
 import Contact from "./routes/contact";
+import GetHired from "./pages/GetHired";
 
 import Root from "./routes/root";
 
@@ -27,6 +28,10 @@ const Main = () => {
     {
       path: "admin",
       element: <AdminPage />,
+    },
+    {
+      path: "gethired",
+      element: <GetHired />,
     },
     {
       path: "contacts/:contactId",

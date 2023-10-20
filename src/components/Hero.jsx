@@ -2,6 +2,8 @@ import React from "react";
 import "../syles/Hero.css";
 import hero from "../assets/hero.png";
 import { useNavigate } from 'react-router-dom';
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Hero = () => {
   const navigate = useNavigate();
@@ -28,7 +30,7 @@ const Hero = () => {
           </p>
           <div className="flex justify-center mx-auto">
             <button onClick={() => navigate('/hire')} className="Get-started">Hire a Painter</button>
-            <button className="Get-hired">Get Hired</button>
+            <button onClick={() => navigate('/gethired')} className="Get-hired">Get Hired</button>
           </div>
         </div>
       </div>
