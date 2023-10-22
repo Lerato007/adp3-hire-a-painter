@@ -14,11 +14,11 @@ function Header() {
         <Link to={'/'} className="HeaderBrand">Hire A Painter</Link>
       </div>
       <div className="header__center">
-        <button onClick={() => navigate('/admin')} className="Adminbtn">Admin</button>
-        <button className="signBtn">Sign In</button>
+        <button onClick={() => window.open('http://localhost:8080/login')} className="signBtn">Sign In</button>
+        <button onClick={() => window.open('http://localhost:8080/register')} className="Adminbtn">Register</button>
       </div>
     </div>
   );
 }
-
+ 
 export default Header;
