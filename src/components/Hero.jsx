@@ -28,7 +28,6 @@ const Hero = () => {
           </p>
           <div className="flex justify-center mx-auto">
             <button onClick={() => navigate('/hire')} className="Get-started">Hire a Painter</button>
-            <button className="Get-hired">Get Hired</button>
           </div>
         </div>
       </div>
